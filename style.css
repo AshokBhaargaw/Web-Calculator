@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+h1{
+    align-items: center;
+    color: rgb(0, 4, 7);
+    text-align: center;
+    font-size: 45px;
+    background: rgb(241, 241, 241);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    height: 400px;
+    width: 300px;
+    margin: 30px auto ;
+    grid-gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(100, 100, 100);
+}
+
+.bxshdo{
+    box-shadow: 1px 1px 2px rgb(3, 0, 0);
+    border-radius: 5px;
+}
+.bdr{
+    border: 1px solid black;
+}
+.cRed{
+    color: rgb(163, 0, 0);
+    /* box-shadow: 0 0 0; */
+}
+
+.btn, .output{
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.btn:hover{
+    background: rgb(220, 220, 220);
+    box-shadow: 0 0 0;
+}
+
+.plusBtn{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.equilBtn{
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.container .output{
+    background: rgb(225, 225, 225);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
